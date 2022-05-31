@@ -1,0 +1,1292 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0324.2209                               -->
+<workbook include-phone-layouts='false' original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IncludePhoneLayoutsOptOut />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='classic' />
+  <style>
+    <_.fcp.MarkAnimation.true...style-rule element='animation'>
+      <format attr='animation-duration' value='0.5' />
+      <format attr='animation-on' value='ao-on' />
+      <format attr='animation-style' value='as-phased' />
+    </_.fcp.MarkAnimation.true...style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Ano2019 RJ (Ano2019 RJ)' inline='true' name='federated.1644eee0xh212s1ehhmer1q0aggj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Ano2019 RJ' name='excel-direct.1k4nurw1qllktv1erj09l0xka8z3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/OneDrive/Área de Trabalho/Ano2019 RJ.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1k4nurw1qllktv1erj09l0xka8z3' name='Ano2019 RJ' table='[&apos;Ano2019 RJ$&apos;]' type='table'>
+          <columns gridOrigin='A1:AD10001:no:A1:AD10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='txNomeParlamentar' ordinal='0' />
+            <column datatype='integer' name='cpf' ordinal='1' />
+            <column datatype='integer' name='ideCadastro' ordinal='2' />
+            <column datatype='integer' name='nuCarteiraParlamentar' ordinal='3' />
+            <column datatype='integer' name='nuLegislatura' ordinal='4' />
+            <column datatype='string' name='sgUF' ordinal='5' />
+            <column datatype='string' name='sgPartido' ordinal='6' />
+            <column datatype='integer' name='codLegislatura' ordinal='7' />
+            <column datatype='integer' name='numSubCota' ordinal='8' />
+            <column datatype='string' name='txtDescricao' ordinal='9' />
+            <column datatype='integer' name='numEspecificacaoSubCota' ordinal='10' />
+            <column datatype='string' name='txtDescricaoEspecificacao' ordinal='11' />
+            <column datatype='string' name='txtFornecedor' ordinal='12' />
+            <column datatype='string' name='txtCNPJCPF' ordinal='13' />
+            <column datatype='string' name='txtNumero' ordinal='14' />
+            <column datatype='integer' name='indTipoDocumento' ordinal='15' />
+            <column datatype='string' name='datEmissao' ordinal='16' />
+            <column datatype='string' name='vlrDocumento' ordinal='17' />
+            <column datatype='string' name='vlrGlosa' ordinal='18' />
+            <column datatype='string' name='vlrLiquido' ordinal='19' />
+            <column datatype='integer' name='numMes' ordinal='20' />
+            <column datatype='integer' name='numAno' ordinal='21' />
+            <column datatype='integer' name='numParcela' ordinal='22' />
+            <column datatype='string' name='txtPassageiro' ordinal='23' />
+            <column datatype='string' name='txtTrecho' ordinal='24' />
+            <column datatype='integer' name='numLote' ordinal='25' />
+            <column datatype='integer' name='numRessarcimento' ordinal='26' />
+            <column datatype='string' name='vlrRestituicao' ordinal='27' />
+            <column datatype='integer' name='nuDeputadoId' ordinal='28' />
+            <column datatype='integer' name='ideDocumento' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1k4nurw1qllktv1erj09l0xka8z3' name='Ano2019 RJ' table='[&apos;Ano2019 RJ$&apos;]' type='table'>
+          <columns gridOrigin='A1:AD10001:no:A1:AD10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='txNomeParlamentar' ordinal='0' />
+            <column datatype='integer' name='cpf' ordinal='1' />
+            <column datatype='integer' name='ideCadastro' ordinal='2' />
+            <column datatype='integer' name='nuCarteiraParlamentar' ordinal='3' />
+            <column datatype='integer' name='nuLegislatura' ordinal='4' />
+            <column datatype='string' name='sgUF' ordinal='5' />
+            <column datatype='string' name='sgPartido' ordinal='6' />
+            <column datatype='integer' name='codLegislatura' ordinal='7' />
+            <column datatype='integer' name='numSubCota' ordinal='8' />
+            <column datatype='string' name='txtDescricao' ordinal='9' />
+            <column datatype='integer' name='numEspecificacaoSubCota' ordinal='10' />
+            <column datatype='string' name='txtDescricaoEspecificacao' ordinal='11' />
+            <column datatype='string' name='txtFornecedor' ordinal='12' />
+            <column datatype='string' name='txtCNPJCPF' ordinal='13' />
+            <column datatype='string' name='txtNumero' ordinal='14' />
+            <column datatype='integer' name='indTipoDocumento' ordinal='15' />
+            <column datatype='string' name='datEmissao' ordinal='16' />
+            <column datatype='string' name='vlrDocumento' ordinal='17' />
+            <column datatype='string' name='vlrGlosa' ordinal='18' />
+            <column datatype='string' name='vlrLiquido' ordinal='19' />
+            <column datatype='integer' name='numMes' ordinal='20' />
+            <column datatype='integer' name='numAno' ordinal='21' />
+            <column datatype='integer' name='numParcela' ordinal='22' />
+            <column datatype='string' name='txtPassageiro' ordinal='23' />
+            <column datatype='string' name='txtTrecho' ordinal='24' />
+            <column datatype='integer' name='numLote' ordinal='25' />
+            <column datatype='integer' name='numRessarcimento' ordinal='26' />
+            <column datatype='string' name='vlrRestituicao' ordinal='27' />
+            <column datatype='integer' name='nuDeputadoId' ordinal='28' />
+            <column datatype='integer' name='ideDocumento' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AD10001:no:A1:AD10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txNomeParlamentar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txNomeParlamentar]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txNomeParlamentar</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cpf</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cpf]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>cpf</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ideCadastro</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ideCadastro]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>ideCadastro</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuCarteiraParlamentar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nuCarteiraParlamentar]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>nuCarteiraParlamentar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuLegislatura</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nuLegislatura]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>nuLegislatura</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sgUF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sgUF]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>sgUF</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sgPartido</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sgPartido]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>sgPartido</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>codLegislatura</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[codLegislatura]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>codLegislatura</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numSubCota</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numSubCota]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numSubCota</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtDescricao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtDescricao]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtDescricao</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numEspecificacaoSubCota</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numEspecificacaoSubCota]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numEspecificacaoSubCota</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtDescricaoEspecificacao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtDescricaoEspecificacao]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtDescricaoEspecificacao</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtFornecedor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtFornecedor]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtFornecedor</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtCNPJCPF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtCNPJCPF]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtCNPJCPF</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtNumero</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtNumero]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtNumero</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indTipoDocumento</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[indTipoDocumento]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>indTipoDocumento</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datEmissao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[datEmissao]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>datEmissao</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vlrDocumento</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[vlrDocumento]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>vlrDocumento</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vlrGlosa</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[vlrGlosa]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>vlrGlosa</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vlrLiquido</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[vlrLiquido]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>vlrLiquido</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numMes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numMes]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numMes</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numAno</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numAno]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numAno</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numParcela</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numParcela]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numParcela</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtPassageiro</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtPassageiro]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtPassageiro</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>txtTrecho</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[txtTrecho]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>txtTrecho</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numLote</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numLote]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numLote</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numRessarcimento</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numRessarcimento]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>numRessarcimento</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vlrRestituicao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[vlrRestituicao]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>vlrRestituicao</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nuDeputadoId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nuDeputadoId]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>nuDeputadoId</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ideDocumento</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ideDocumento]</local-name>
+            <parent-name>[Ano2019 RJ]</parent-name>
+            <remote-alias>ideDocumento</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Ano2019 RJ' datatype='table' name='[__tableau_internal_object_id__].[Ano2019 RJ_992A0CB974B641758F10CAB7846F9532]' role='measure' type='quantitative' />
+      <column caption='Cod Legislatura' datatype='integer' name='[codLegislatura]' role='measure' type='quantitative' />
+      <column caption='Cpf' datatype='integer' name='[cpf]' role='measure' type='quantitative' />
+      <column caption='Dat Emissao' datatype='string' name='[datEmissao]' role='dimension' type='nominal' />
+      <column caption='Ide Cadastro' datatype='integer' name='[ideCadastro]' role='measure' type='quantitative' />
+      <column caption='Ide Documento' datatype='integer' name='[ideDocumento]' role='measure' type='quantitative' />
+      <column caption='Ind Tipo Documento' datatype='integer' name='[indTipoDocumento]' role='measure' type='quantitative' />
+      <column caption='Nu Carteira Parlamentar' datatype='integer' name='[nuCarteiraParlamentar]' role='measure' type='quantitative' />
+      <column caption='Nu Deputado Id' datatype='integer' name='[nuDeputadoId]' role='dimension' type='ordinal' />
+      <column caption='Nu Legislatura' datatype='integer' name='[nuLegislatura]' role='measure' type='quantitative' />
+      <column caption='Num Ano' datatype='integer' name='[numAno]' role='dimension' type='quantitative' />
+      <column caption='Num Especificacao Sub Cota' datatype='integer' name='[numEspecificacaoSubCota]' role='measure' type='quantitative' />
+      <column caption='Num Lote' datatype='integer' name='[numLote]' role='measure' type='quantitative' />
+      <column caption='Num Mes' datatype='integer' name='[numMes]' role='measure' type='quantitative' />
+      <column caption='Num Parcela' datatype='integer' name='[numParcela]' role='measure' type='quantitative' />
+      <column caption='Num Ressarcimento' datatype='integer' name='[numRessarcimento]' role='measure' type='quantitative' />
+      <column caption='Num Sub Cota' datatype='integer' name='[numSubCota]' role='measure' type='quantitative' />
+      <column caption='Sg Partido' datatype='string' name='[sgPartido]' role='dimension' type='nominal' />
+      <column caption='Sg UF' datatype='string' name='[sgUF]' role='dimension' type='nominal' />
+      <column caption='Parlamentares' datatype='string' name='[txNomeParlamentar]' role='dimension' type='nominal' />
+      <column caption='Txt CNPJCPF' datatype='string' name='[txtCNPJCPF]' role='dimension' type='nominal' />
+      <column caption='Txt Descricao Especificacao' datatype='string' name='[txtDescricaoEspecificacao]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='Gastos variados' />
+        </aliases>
+      </column>
+      <column caption='Txt Descricao' datatype='string' name='[txtDescricao]' role='dimension' type='nominal' />
+      <column caption='Txt Fornecedor' datatype='string' name='[txtFornecedor]' role='dimension' type='nominal' />
+      <column caption='Txt Numero' datatype='string' name='[txtNumero]' role='dimension' type='nominal' />
+      <column caption='Txt Passageiro' datatype='string' name='[txtPassageiro]' role='dimension' type='nominal' />
+      <column caption='Txt Trecho' datatype='string' name='[txtTrecho]' role='dimension' type='nominal' />
+      <column caption='Vlr Documento' datatype='string' name='[vlrDocumento]' role='dimension' type='nominal' />
+      <column caption='Vlr Glosa' datatype='string' name='[vlrGlosa]' role='dimension' type='nominal' />
+      <column caption='Vlr Liquido' datatype='string' name='[vlrLiquido]' role='dimension' type='nominal' />
+      <column caption='Vlr Restituicao' datatype='string' name='[vlrRestituicao]' role='dimension' type='nominal' />
+      <column-instance column='[txtDescricaoEspecificacao]' derivation='None' name='[none:txtDescricaoEspecificacao:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:txtDescricaoEspecificacao:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Veículos Automotores&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sem especificações&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Aeronaves&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <filter class='categorical' column='[sgUF]' filter-group='2'>
+        <groupfilter function='member' level='[sgUF]' member='&quot;RJ&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Ano2019 RJ' id='Ano2019 RJ_992A0CB974B641758F10CAB7846F9532'>
+            <properties context=''>
+              <relation connection='excel-direct.1k4nurw1qllktv1erj09l0xka8z3' name='Ano2019 RJ' table='[&apos;Ano2019 RJ$&apos;]' type='table'>
+                <columns gridOrigin='A1:AD10001:no:A1:AD10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='txNomeParlamentar' ordinal='0' />
+                  <column datatype='integer' name='cpf' ordinal='1' />
+                  <column datatype='integer' name='ideCadastro' ordinal='2' />
+                  <column datatype='integer' name='nuCarteiraParlamentar' ordinal='3' />
+                  <column datatype='integer' name='nuLegislatura' ordinal='4' />
+                  <column datatype='string' name='sgUF' ordinal='5' />
+                  <column datatype='string' name='sgPartido' ordinal='6' />
+                  <column datatype='integer' name='codLegislatura' ordinal='7' />
+                  <column datatype='integer' name='numSubCota' ordinal='8' />
+                  <column datatype='string' name='txtDescricao' ordinal='9' />
+                  <column datatype='integer' name='numEspecificacaoSubCota' ordinal='10' />
+                  <column datatype='string' name='txtDescricaoEspecificacao' ordinal='11' />
+                  <column datatype='string' name='txtFornecedor' ordinal='12' />
+                  <column datatype='string' name='txtCNPJCPF' ordinal='13' />
+                  <column datatype='string' name='txtNumero' ordinal='14' />
+                  <column datatype='integer' name='indTipoDocumento' ordinal='15' />
+                  <column datatype='string' name='datEmissao' ordinal='16' />
+                  <column datatype='string' name='vlrDocumento' ordinal='17' />
+                  <column datatype='string' name='vlrGlosa' ordinal='18' />
+                  <column datatype='string' name='vlrLiquido' ordinal='19' />
+                  <column datatype='integer' name='numMes' ordinal='20' />
+                  <column datatype='integer' name='numAno' ordinal='21' />
+                  <column datatype='integer' name='numParcela' ordinal='22' />
+                  <column datatype='string' name='txtPassageiro' ordinal='23' />
+                  <column datatype='string' name='txtTrecho' ordinal='24' />
+                  <column datatype='integer' name='numLote' ordinal='25' />
+                  <column datatype='integer' name='numRessarcimento' ordinal='26' />
+                  <column datatype='string' name='vlrRestituicao' ordinal='27' />
+                  <column datatype='integer' name='nuDeputadoId' ordinal='28' />
+                  <column datatype='integer' name='ideDocumento' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Destacar 1 (gerado)' name='[Action1_B956E2FCCF89498186383AF06818AEA1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Planilha 3' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Txt Descricao Especificacao' />
+        <param name='target' value='Planilha 3' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ano2019 RJ (Ano2019 RJ)' name='federated.1644eee0xh212s1ehhmer1q0aggj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1644eee0xh212s1ehhmer1q0aggj'>
+            <column-instance column='[txNomeParlamentar]' derivation='CountD' name='[ctd:txNomeParlamentar:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[numAno]' derivation='None' name='[none:numAno:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[sgPartido]' derivation='None' name='[none:sgPartido:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sgUF]' derivation='None' name='[none:sgUF:nk]' pivot='key' type='nominal' />
+            <column caption='Num Ano' datatype='integer' name='[numAno]' role='dimension' type='quantitative' />
+            <column caption='Sg Partido' datatype='string' name='[sgPartido]' role='dimension' type='nominal' />
+            <column caption='Sg UF' datatype='string' name='[sgUF]' role='dimension' type='nominal' />
+            <column caption='Parlamentares' datatype='string' name='[txNomeParlamentar]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1644eee0xh212s1ehhmer1q0aggj].[none:numAno:ok] * [federated.1644eee0xh212s1ehhmer1q0aggj].[ctd:txNomeParlamentar:qk])</rows>
+        <cols>([federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgUF:nk] / [federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk])</cols>
+      </table>
+      <simple-id uuid='{A3CA3C50-48F9-4914-9D00-5571C0456B42}' />
+    </worksheet>
+    <worksheet name='Planilha 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ano2019 RJ (Ano2019 RJ)' name='federated.1644eee0xh212s1ehhmer1q0aggj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1644eee0xh212s1ehhmer1q0aggj'>
+            <column-instance column='[vlrLiquido]' derivation='Count' name='[cnt:vlrLiquido:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sgPartido]' derivation='None' name='[none:sgPartido:nk]' pivot='key' type='nominal' />
+            <column-instance column='[txNomeParlamentar]' derivation='None' name='[none:txNomeParlamentar:nk]' pivot='key' type='nominal' />
+            <column caption='Sg Partido' datatype='string' name='[sgPartido]' role='dimension' type='nominal' />
+            <column caption='Parlamentares' datatype='string' name='[txNomeParlamentar]' role='dimension' type='nominal' />
+            <column caption='Vlr Liquido' datatype='string' name='[vlrLiquido]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk] / [federated.1644eee0xh212s1ehhmer1q0aggj].[none:txNomeParlamentar:nk])</rows>
+        <cols>[federated.1644eee0xh212s1ehhmer1q0aggj].[cnt:vlrLiquido:qk]</cols>
+      </table>
+      <simple-id uuid='{8AA3FD17-8CC6-4E81-A030-45ED2C8DED62}' />
+    </worksheet>
+    <worksheet name='Planilha 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ano2019 RJ (Ano2019 RJ)' name='federated.1644eee0xh212s1ehhmer1q0aggj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1644eee0xh212s1ehhmer1q0aggj'>
+            <column-instance column='[txtDescricao]' derivation='Count' name='[cnt:txtDescricao:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sgPartido]' derivation='None' name='[none:sgPartido:nk]' pivot='key' type='nominal' />
+            <column-instance column='[txtDescricaoEspecificacao]' derivation='None' name='[none:txtDescricaoEspecificacao:nk]' pivot='key' type='nominal' />
+            <column caption='Sg Partido' datatype='string' name='[sgPartido]' role='dimension' type='nominal' />
+            <column caption='Txt Descricao Especificacao' datatype='string' name='[txtDescricaoEspecificacao]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='Gastos variados' />
+              </aliases>
+            </column>
+            <column caption='Txt Descricao' datatype='string' name='[txtDescricao]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricaoEspecificacao:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1644eee0xh212s1ehhmer1q0aggj].[cnt:txtDescricao:qk]</rows>
+        <cols>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</cols>
+      </table>
+      <simple-id uuid='{54EE6910-6287-4956-8549-BB675C0CE00C}' />
+    </worksheet>
+    <worksheet name='Planilha 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ano2019 RJ (Ano2019 RJ)' name='federated.1644eee0xh212s1ehhmer1q0aggj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1644eee0xh212s1ehhmer1q0aggj'>
+            <column-instance column='[vlrDocumento]' derivation='Count' name='[cum:cnt:vlrDocumento:qk:1]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='Field' type='CumTotal'>
+                <order field='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricao:nk]' />
+                <order field='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' />
+              </table-calc>
+            </column-instance>
+            <column-instance column='[sgPartido]' derivation='None' name='[none:sgPartido:nk]' pivot='key' type='nominal' />
+            <column-instance column='[txtDescricao]' derivation='None' name='[none:txtDescricao:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vlrLiquido]' derivation='None' name='[none:vlrLiquido:nk]' pivot='key' type='nominal' />
+            <column caption='Sg Partido' datatype='string' name='[sgPartido]' role='dimension' type='nominal' />
+            <column caption='Txt Descricao' datatype='string' name='[txtDescricao]' role='dimension' type='nominal' />
+            <column caption='Vlr Documento' datatype='string' name='[vlrDocumento]' role='dimension' type='nominal' />
+            <column caption='Vlr Liquido' datatype='string' name='[vlrLiquido]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrLiquido:nk]'>
+            <groupfilter from='&quot;-1.18&quot;' function='range' level='[none:vlrLiquido:nk]' to='&quot;999.42&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrLiquido:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1644eee0xh212s1ehhmer1q0aggj].[cum:cnt:vlrDocumento:qk:1]</rows>
+        <cols>([federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricao:nk] / [federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk])</cols>
+      </table>
+      <simple-id uuid='{CDC0349D-F766-4939-BED6-2699CE54B463}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Parlamentares RJ' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Parlamentares por partido</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='wrap' id='story-description_11' value='auto' />
+          <format attr='vertical-align' id='story-description_11' value='center' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='229' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' preset-index='1' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='10' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='7' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='1' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='130' h='16250' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98400' x='800' y='1000' />
+                <zone h='81750' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98400' x='800' y='17250'>
+                  <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
+                    <story-points>
+                      <story-point caption='Apresentação' captured-sheet='' id='7' />
+                      <story-point caption='Introdução' captured-sheet='' id='8' />
+                      <story-point caption='Análise 1' captured-sheet='' id='9' />
+                      <story-point caption='Visualização Gráfica de parlamentares em cada partido pelo estado do Rio de Janeiro' captured-sheet='Planilha 1' id='2'>
+                        <capturedDeltas>
+                          <worksheet name='Planilha 1'>
+                            <style delta-type='added'>
+                              <style-rule element='axis'>
+                                <format attr='title' class='0' field='[federated.1644eee0xh212s1ehhmer1q0aggj].[ctd:txNomeParlamentar:qk]' scope='rows' value='Parlamentares' />
+                              </style-rule>
+                            </style>
+                            <shelf-sort-deltas>
+                              <shelf-sorts>
+                                <shelf-sort-v2 dimension-to-sort='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1644eee0xh212s1ehhmer1q0aggj].[ctd:txNomeParlamentar:qk]' shelf='columns'>
+                                  <sort-filter-info>
+                                    <sort-filter level-name='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:numAno:ok]' member-value='2019' />
+                                  </sort-filter-info>
+                                </shelf-sort-v2>
+                              </shelf-sorts>
+                            </shelf-sort-deltas>
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point captured-sheet='' id='10' />
+                      <story-point caption='Parlamentares com os maiores gastos' captured-sheet='Planilha 2' id='3' />
+                      <story-point captured-sheet='' id='11' />
+                      <story-point caption='Partidos com maiores despesas' captured-sheet='Planilha 3' id='5'>
+                        <capturedDeltas>
+                          <worksheet name='Planilha 3'>
+                            <style delta-type='added'>
+                              <style-rule element='axis'>
+                                <format attr='title' class='0' field='[federated.1644eee0xh212s1ehhmer1q0aggj].[cnt:txtDescricao:qk]' scope='rows' value='Total Gasto' />
+                              </style-rule>
+                            </style>
+                            <highlight>
+                              <color-one-way>
+                                <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</field>
+                                <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txNomeParlamentar:nk]</field>
+                                <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricao:nk]</field>
+                                <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricaoEspecificacao:nk]</field>
+                              </color-one-way>
+                            </highlight>
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point captured-sheet='' id='12' />
+                      <story-point caption='Demais gastos especificados de acordo com o partido' captured-sheet='Planilha 4' id='6' />
+                      <story-point captured-sheet='' id='13' />
+                      <story-point caption='Considerações Finais' captured-sheet='' id='14' />
+                      <story-point caption='Agradecimentos' captured-sheet='' id='15' />
+                    </story-points>
+                  </flipboard>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='48500' id='8' story-point-id='7' type-v2='text' w='59700' x='21700' y='23750'>
+          <formatted-text>
+            <run>Projeto M6
+
+Parlamentares e Gastos referentes ao estado do RJ
+
+</run>
+            <run fontalignment='0'>
+Aluno: Gabriel Lima
+Resilia Educação
+Github: /Gabriellimar
+</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='49750' hidden='true' id='11' story-point-id='8' type-v2='text' w='56400' x='22800' y='21750'>
+          <formatted-text>
+            <run>O objetivo deste perojeto é realizar o levantamento de algumas questões referente aos paralmentares do Rio de Janeiro
+</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' italic='true'>1- Quantos parlamentares cada partido possui</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' italic='true'>2- Os parlamentares com maiores gastos</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' italic='true'>3- Os partidos com mais despesas</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' italic='true'>4- Quais desepesas são essas</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='50000' hidden='true' id='12' story-point-id='9' type-v2='text' w='66700' x='16900' y='20125'>
+          <formatted-text>
+            <run>O Brasil conta com 32 partidos políticos legalizados pelo TSE. Ou seja, são partidos que tem validação jurídica e que podem exercer suas atividades.
+Com isso iremos elencar o número de candidatos em cada partido pelo estado do Rio de Janeiro. Será possível elencar quais partidos tem mais representades (e consequentemente seu aspecto polítco representado) e suas consequencias na política diária.
+</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='43750' hidden='true' id='13' story-point-id='10' type-v2='text' w='67500' x='19800' y='25125'>
+          <formatted-text>
+            <run>Como pôde ser observado, o PSL conta com mais parlamentares do que os demais partidos.
+Em sua repesentação é possível ver 13 parlamentares contra 1 do Avante, que tem o menor número.
+Com isso podemos levantar algumas questões, tais como:
+</run>
+            <run fontalignment='0'>
+1-Qual parlamentar gasta mais em seu partido?
+2-O partido com mais parlamentar é o que mais usufrui do dinheiro público?
+</run>
+            <run>&#10;Veremos na próxima análise.&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='47625' hidden='true' id='14' story-point-id='11' type-v2='text' w='64200' x='18700' y='24375'>
+          <formatted-text>
+            <run>Como podemos ver, ao contrário do que poderia sugerir, o parlamentar com maior gasto não é oriundo do maior partido sendo representado. Pelo contrário. É oriundo de um dos com menos representantes.
+Glauber Braga (PSOL) fica em primeiro lugar, vindo logo a frente do delegado Antônio Furtado (PSL).
+Isto é interessante pois é possível ver através da cota parlamentar (e outros) como tem sido gasto. Obviamente esse valor pode estar sendo bem gasto, porém este não é o objetivo da análise.
+É importante pontuar que existe também um único representante que gasta muito além do que partidos com mais de um parlamentar. Exemplo:
+Marcelo Calero do CIDADANIA gasta mais que o triplo do que os parlmentares do PR</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='38000' hidden='true' id='15' story-point-id='12' type-v2='text' w='58800' x='21400' y='22000'>
+          <formatted-text>
+            <run>Com o último gráfico, foi possível elencar os partidos que mais gastam e os que menos gastam.
+Como no último caso, o partido com mais representantes não é o que necessariamente irá gastar mais. 
+O PSL (13 parlamentares) entre em primeiro lugar e logo em seguida vem o PSD(7) e o PSOL(5).
+</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='31500' hidden='true' id='16' story-point-id='13' type-v2='text' w='58800' x='22300' y='25375'>
+          <formatted-text>
+            <run>Neste último gráfico foi possível averiguar de uma forma mais detalhada os &quot;demais gastos&quot; da outra tabela.
+Essa visualização se mostra de uma forma clara e objetiva, mostrando onde e com o que os parlamentares mais gastam de suas verbas.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='41125' hidden='true' id='17' story-point-id='14' type-v2='text' w='66600' x='18400' y='23125'>
+          <formatted-text>
+            <run>Como observado ao longo destea análise, foi possível enxergar de que forma os parlamentares tem gasto o dinheiro público e quais partidos tem gastado mais.
+Como observado anteriormente, é possível que muito desses gastos venha trazer algum retorno para a populção posteriormente. Entretanto, é válido observar quantas vezes aparece um gasto altíssimo sem uma finalidade clara e objetiva de retorno.
+Com essa representação é possível levantar ainda mais questionamentos perante a máquina pública, já que todo valor (grande parte) é advindo do contribuinte.
+É de suma importância que a população esteja atenta ao gasto dos parlamentares e demais representantes, pois no final das contas é sempre o povo quem paga.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='18500' hidden='true' id='18' story-point-id='15' type-v2='text' w='41800' x='30200' y='26625'>
+          <formatted-text>
+            <run>Agradeço pela atenciosidade e oportunidade.
+
+</run>
+            <run fontalignment='2'>&#10;Gabriel Lima</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{EF5A17A1-A961-4B1D-9EA9-2BA51CBC9C1B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Parlamentares RJ' tab-color='#4f779a'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{6DF57F96-D3AB-4FD6-BF20-774712C33F2E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='1' param='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[ctd:txNomeParlamentar:qk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:numAno:ok]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:numAno:qk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgUF:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txNomeParlamentar:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BA65DA7D-61AA-400F-8384-7B1716DD2D36}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txNomeParlamentar:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrLiquido:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrRestituicao:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{85C54699-E14D-4CED-BD55-853EA28F9752}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Planilha 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricaoEspecificacao:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txNomeParlamentar:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricao:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6150F1A5-0E28-4117-8AD1-CC0AB66BD427}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Planilha 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:sgPartido:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:txtDescricaoEspecificacao:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrDocumento:nk]</field>
+            <field>[federated.1644eee0xh212s1ehhmer1q0aggj].[none:vlrLiquido:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A636082A-04B4-47C6-8A1E-2FC25C33D6F3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Parlamentares RJ' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
